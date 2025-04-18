@@ -19,7 +19,7 @@ const commands = [
   "[ OK ] Initialized Network Manager Script Dispatcher Service (bianco_gabriele)"
 ];
 
-const totalDuration = 6000; // 6 secondi per tutta l’animazione
+const totalDuration = 5000; // 6 secondi per tutta l’animazione
 const interval = totalDuration / commands.length;
 
 let commandIndex = 0;
