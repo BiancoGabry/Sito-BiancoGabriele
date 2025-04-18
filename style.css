@@ -62,13 +62,20 @@ html, body {
 
   /* Aumenta la dimensione del nome */
 .container > div:first-child {
-    font-size: 2em;
+    font-size: 2.25em;
     margin-bottom: 1em;
   }
   
   .loading {
     margin-top: 1em;
     font-size: 1.1em;
+    text-shadow: 0 0 4px #fff;
+    animation: blink 1s steps(1) infinite;
+  }
+
+  .workinprogress {
+    margin-top: 1em;
+    font-size: 1.5em;
     text-shadow: 0 0 4px #fff;
     animation: blink 1s steps(1) infinite;
   }
