@@ -7,19 +7,62 @@ html, body {
   }
   
   body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    width: 100vw;
     font-family: 'Press Start 2P', monospace;
     color: #fff;
+    position: relative;
+  }
+  
+  .terminal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 1em 2em 1em 1em; /* Ridotto padding sinistro */
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1.1em;
+    color: #fff;
+    background: transparent;
+    letter-spacing: 2px;
+    z-index: 10;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: left; /* Importante per l'allineamento */
+  }
+  
+  #terminal-lines {
+    display: flex;
+    flex-direction: column;
+    max-height: 40vh;
+    overflow-y: auto;
+    text-align: left;
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
   }
   
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    position: fixed;
+    inset: 0;
+    height: 100vh;
+    width: 100vw;
     letter-spacing: 2px;
+    color: #fff;
+  }
+
+  /* Aumenta la dimensione del nome */
+.container > div:first-child {
+    font-size: 1.5em;
   }
   
   .loading {
@@ -27,8 +70,4 @@ html, body {
     font-size: 1.1em;
     text-shadow: 0 0 4px #fff;
     animation: blink 1s steps(1) infinite;
-  }
-  
-  @keyframes blink {
-    50% { opacity: 0; }
   }
