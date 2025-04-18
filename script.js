@@ -10,7 +10,7 @@ const commands = [
   "[ OK ] Reached target Multi-User System for bianco_gabriele",
   "[ OK ] Started Session c1 of user bianco_gabriele.",
   "[    ] Loading kernel modules for bianco_gabriele...",
-  "bianco_gabriele login: auto-login",
+  "[    ] bianco_gabriele login: auto-login",
   "[ OK ] Started Daily apt download for bianco_gabriele.",
   "[ OK ] Finished Update UTMP about System Boot/Shutdown (bianco_gabriele)",
   "[ OK ] Reached target Basic System (bianco_gabriele)",
