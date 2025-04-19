@@ -4,16 +4,16 @@ const mainContent = document.getElementById("main-content");
 
 const commands = [
   "[ OK ] Started User manager for UID 1000: bianco gabriele",
-  "[    ] Starting bianco gabriele custom service...",
+  "[    ] Starting bianco gabriele custom service...",
   "[ OK ] Mounted /home/bianco/gabriele",
-  "[    ] Activating swap for bianco_gabriele...",
+  "[    ] Activating swap for bianco_gabriele...",
   "[ OK ] Reached target Multi-User System for bianco_gabriele",
   "[ OK ] Started Session c1 of user bianco_gabriele.",
-  "[    ] Loading kernel modules for bianco_gabriele...",
+  "[    ] Loading kernel modules for bianco_gabriele...",
   "[ OK ] Started Daily apt download for bianco_gabriele.",
   "[ OK ] Finished Update UTMP about System Boot/Shutdown (bianco_gabriele)",
   "[ OK ] Reached target Basic System (bianco_gabriele)",
-  "[    ] Starting Authorization Manager: bianco_gabriele...",
+  "[    ] Starting Authorization Manager: bianco_gabriele...",
   "[ OK ] Mounted /mnt/extra_data/bianco_gabriele",
   "[ OK ] Started /etc/rc.local Compatibility [bianco_gabriele]",
   "[ OK ] Initialized Network Manager Script Dispatcher Service (bianco_gabriele)"
